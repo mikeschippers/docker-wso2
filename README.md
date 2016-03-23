@@ -23,3 +23,14 @@ Run:
 
     docker run -ti -p 9443:9443 -p 9763:9763 wso2am:1.10.0
 
+
+WSO2 Data Analytics Server
+----------------------------------
+Build:
+
+    docker build -t="wso2das-3.0.1" .
+
+Run:
+
+    docker run -ti -p 9443:9443 -p 9763:9763 wso2das-3.0.1
+	
