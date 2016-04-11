@@ -5,7 +5,7 @@ WSO2 Enterprise Service Bus
 ----------------------------------
 Build:
 
-    docker build -t="wso2esb:4.9.0" .
+    docker build -t="mikeschippers/wso2esb:4.9.0" .
 
 Run:
 
@@ -17,7 +17,7 @@ WSO2 API Manager
 ----------------------------------
 Build:
 
-    docker build -t="wso2am:1.10.0" .
+    docker build -t="mikeschippers/wso2am:1.10.0" .
 
 Run:
 
@@ -28,7 +28,7 @@ WSO2 Application Server
 ----------------------------------
 Build:
 
-    docker build -t="wso2as:5.3.0" .
+    docker build -t="mikeschippers/wso2as:5.3.0" .
 
 Run:
 
@@ -39,7 +39,7 @@ WSO2 Data Analytics Server
 ----------------------------------
 Build:
 
-    docker build -t="wso2das-3.0.1" .
+    docker build -t="mikeschippers/wso2das:3.0.1" .
 
 Run:
 
