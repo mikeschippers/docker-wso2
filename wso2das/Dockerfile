@@ -17,6 +17,6 @@ ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64/
 	
 USER wso2
 	
-EXPOSE 9443 9763 8243 8280 10397 7711 4090
+EXPOSE 9443 9763 8243 8280 10397 7711 4040
 
 ENTRYPOINT ["/opt/wso2/wso2das-3.0.1/bin/wso2server.sh"]
