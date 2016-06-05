@@ -160,3 +160,16 @@ Build:
 Run:
 
     docker run -ti -p 9443:9443 -p 9763:9763 -p 8280:8280 mikeschippers/wso2mb:3.1.0 
+
+	
+WSO2 Identity Server
+----------------------------------
+> As the industry’s first enterprise identity bus (EIB), WSO2 Identity Server is the central backbone that connects and manages multiple identities across applications, APIs, the cloud, mobile, and Internet of Things devices, regardless of the standards on which they are based. The multi-tenant WSO2 Identity Server can be deployed directly on servers or in the cloud, and has the ability to propagate identities across geographical and enterprise borders in a connected business environment. [More info.](http://wso2.com/products/identity-server/)
+
+Build:
+
+    docker build -t="mikeschippers/wso2is:5.1.0" .
+
+Run:
+
+    docker run -ti -p 9443:9443 -p 9763:9763 -p 8280:8280 mikeschippers/wso2is:5.1.0 	
